@@ -591,7 +591,7 @@ export default function App() {
               {items.find(i => i.id === editingItemId)?.useCustomSettings ? (
                 <div className="space-y-4 animate-in slide-in-from-top-1">
                    <div className="space-y-1">
-                    <label className="text-[9px] font-bold text-slate-400 uppercase">专属周期 (月)</label>
+                    <label className="text-[9px] font-bold text-slate-400 uppercase">本项时间长度 (月)</label>
                     <input 
                       type="number" 
                       value={items.find(i => i.id === editingItemId)?.customConfig.totalCycleMonths}
