@@ -530,7 +530,7 @@ export default function App() {
             </div>
             <div className="space-y-4">
               <div className="space-y-1">
-                <label className="text-[9px] font-bold text-slate-400 uppercase tracking-tight">周期 (月)</label>
+                <label className="text-[9px] font-bold text-slate-400 uppercase tracking-tight">检测和监测总时长 (月)</label>
                 <input 
                   type="number" 
                   value={globalConfig.totalCycleMonths}
@@ -549,11 +549,12 @@ export default function App() {
               </div>
               <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
                 <ul className="text-[10px] text-slate-500 space-y-1.5 list-none leading-relaxed">
-                  <li>1、本应用主要用于快速统计检测和监测的工程量和费用；</li>
-                  <li>2、全局时间设置可以快速将时间设置覆盖到所有数据；</li>
-                  <li>3、只需要输入每个阶段时间分配，程序可自动新增下一阶段时间；</li>
-                  <li>4、每个项目可以单独设置时间数据；</li>
-                  <li>5、如果喜欢，欢迎将网页地址添加至收藏夹，更多功能敬请期待！</li>
+                  <li>1、本应用可快速统计检测和监测的工程量和费用；</li>
+                  <li>2、可自由新增和添加其它项，可导出表格数据；</li>
+                  <li>3、全局时间设置可快速将设置数据覆盖到所有项；</li>
+                  <li>4、只需要为每个阶段分配时长，程序可自动新增下一阶段时长；</li>
+                  <li>5、每个项目可以单独设置时间数据；</li>
+                  <li>6、如果喜欢，欢迎将网页地址添加至收藏夹，更多功能敬请期待！</li>
                 </ul>
               </div>
             </div>
@@ -654,7 +655,7 @@ export default function App() {
             className="bg-indigo-600 text-white px-6 py-2 rounded-xl font-bold hover:bg-indigo-700 transition-all flex items-center gap-2 shadow-lg shadow-indigo-100 active:scale-95 text-xs"
           >
              <FileSpreadsheet size={16} />
-             <span>导出表格</span>
+             <span>导出到表格</span>
           </button>
         </div>
       </footer>
